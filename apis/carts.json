@@ -1,0 +1,12 @@
+
+{
+  "保税仓直发":[
+      {"title":"J.W. ANDERSON","color":"拼色","desc":"黑白拼色Pierce中号手提包","price":13710,"pic":"assets/img/img-api/shop1.jpg","qal":1},
+      {"title":"Elizabeth Arden","color":"米白色","desc":"铂粹御肤肌活露140ml套装","price":728,"pic":"assets/img/img-api/shop2.jpg","qal":1}
+  ],
+  "魅力惠直发":[
+      {"title":"FRETTE","color":"深蓝色","desc":"浅咖色SNAKE TRAM AR.进口床品四件套2米床","price":3963,"pic":"assets/img/img-api/shop3.jpg","qal":1},
+      {"title":"Jurlique","color":"果绿色","desc":"茱莉蔻赋活精华水150ml","price":368,"pic":"assets/img/img-api/shop4.jpg","qal":1},
+      {"title":"SHISEIDO","color":"粉色","desc":"新透白美肌集光祛斑精华液50ml","price":999,"pic":"assets/img/img-api/shop5.jpg","qal":1}
+  ]
+}

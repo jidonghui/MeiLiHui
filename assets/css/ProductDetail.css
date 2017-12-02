@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*公共样式*/
+html, body, div, p, dl, dt, dd, ul, ol, li, form, table, tr, td, th, h1, h2, h3, h4, h5, h6, hr, figure, fieldset, legend, img, input, header, footer, nav, aside, article, section {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  font-size: 26.66667vw; }
+
+body {
+  font-family: "微软雅黑",Arial; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  border: none; }
+
+html, body {
+  color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.detail-header {
+  padding: 0 0.15rem;
+  line-height: 0.6rem;
+  font-size: 18px;
+  text-align: center;
+  position: relative; }
+  .detail-header a:first-child {
+    display: inline-block;
+    position: absolute;
+    left: 0.15rem;
+    top: 0; }
+  .detail-header a:last-child {
+    display: inline-block;
+    position: absolute;
+    right: 0.15rem;
+    top: 0; }
+  .detail-header .back {
+    height: 0.14rem; }
+  .detail-header .share {
+    height: 0.21rem; }
+
+.content {
+  padding: 0 0.15rem;
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.swiper-slide img {
+  width: 100%; }
+
+.price {
+  line-height: 0.16rem;
+  font-size: 14px;
+  color: #d21722;
+  margin: 0.13rem 0; }
+  .price span {
+    display: inline-block;
+    padding: 0.02rem;
+    font-size: 10px;
+    color: #07080a;
+    border: 1px solid #c6c6c5; }
+
+.tit {
+  line-height: 0.28rem;
+  font-size: 18px; }
+
+.outPut-time {
+  line-height: 0.44rem;
+  font-size: 14px;
+  color: #5a5a5b;
+  margin-bottom: 0.1rem; }
+
+.item-info {
+  color: #5a5a5b;
+  font-size: 14px; }
+  .item-info > div {
+    border-top: 1px solid #efefef;
+    padding: 0.15rem 0;
+    overflow: hidden; }
+    .item-info > div b {
+      color: #000001;
+      line-height: 0.33rem; }
+    .item-info > div span {
+      width: 15%;
+      line-height: 0.33rem;
+      float: left; }
+    .item-info > div div {
+      width: 85%;
+      float: left; }
+      .item-info > div div i {
+        display: inline-block;
+        width: 1px;
+        height: 0.1rem;
+        background: #676a75;
+        margin: 0 0.08rem; }
+      .item-info > div div .first {
+        color: white;
+        background: #000001; }
+      .item-info > div div a {
+        display: inline-block;
+        padding: 0 0.09rem;
+        height: 0.33rem;
+        line-height: 0.33rem;
+        text-align: center;
+        color: #000001;
+        background: #f7f7f7;
+        margin-right: 0.15rem;
+        margin-bottom: 0.15rem; }
+
+.goods-params {
+  border-top: 1px solid #efefef;
+  font-size: 14px;
+  padding: 0.15rem 0;
+  color: #000001; }
+  .goods-params h4 {
+    line-height: 0.45rem;
+    font-size: 20px; }
+  .goods-params ul li {
+    padding: 0.06rem 0;
+    line-height: 0.19rem;
+    overflow: hidden; }
+    .goods-params ul li span:first-child {
+      display: inline-block;
+      color: #9c9c9c;
+      width: 45%;
+      float: left; }
+    .goods-params ul li span:last-child {
+      display: inline-block;
+      width: 55%;
+      float: left; }
+
+.footer {
+  font-size: 16px;
+  text-align: center;
+  overflow: hidden; }
+  .footer a {
+    float: left; }
+  .footer .bag {
+    width: 20%;
+    position: relative; }
+    .footer .bag img {
+      width: 100%; }
+    .footer .bag span {
+      position: absolute;
+      font-size: 8px;
+      width: 0.2rem;
+      height: 0.2rem;
+      border-radius: 50%;
+      background: #e22d3d;
+      color: white;
+      right: 0.15rem;
+      top: 0; }
+  .footer .addToBag {
+    width: 40%;
+    box-sizing: border-box;
+    line-height: 0.52rem;
+    border-left: 1px solid #f7f7f7;
+    border-right: 1px solid #f7f7f7;
+    color: #101012; }
+  .footer .goToBuy {
+    width: 40%;
+    line-height: 0.52rem;
+    color: #e22d3d; }
+
+/*# sourceMappingURL=ProductDetail.css.map */

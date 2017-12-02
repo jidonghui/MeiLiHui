@@ -1,0 +1,24 @@
+1.制定标准(js,css,html) pascal cameal
+2.制定开发计划
+3.vue
+  1.html
+  2.拆分组件
+  3.设计(业务分析,props,state)
+  4.组合(page)
+  5.router
+4.测试和总结 ppt
+
+
+首页：Index.vue
+
+分类： ProductCategory.vue
+
+列表：ProductLists.vue
+
+详情页：ProductDetail.vue
+
+购物车：ShopCart.vue
+
+我的：Mine.vue
+
+

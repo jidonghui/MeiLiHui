@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/*公共样式*/
+html, body, div, p, dl, dt, dd, ul, ol, li, form, table, tr, td, th, h1, h2, h3, h4, h5, h6, hr, figure, fieldset, legend, img, input, header, footer, nav, aside, article, section {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  font-size: 26.66667vw; }
+
+body {
+  font-family: "微软雅黑",Arial; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  border: none; }
+
+/*# sourceMappingURL=public.css.map */

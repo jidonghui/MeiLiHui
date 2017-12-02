@@ -1,0 +1,101 @@
+{
+  "连衣裙":{
+        "photo":"assets/img/jdh/qunzi.png",
+        "lists": [
+          {
+            "pic": "assets/img/jdh/lyq01.png",
+            "name": "衣架",
+            "desc": "藏青色字母图案长袖连衣裙",
+            "newPrice": "379",
+            "oldPrice": "1990.0"
+          },
+          {
+            "pic": "assets/img/jdh/lyq02.png",
+            "name": "MOSCHINO",
+            "desc": "黑色图案圆领修身针织连衣裙",
+            "newPrice": "4792",
+            "oldPrice": "5990.0"
+          },
+          {
+            "pic": "assets/img/jdh/lyq03.png",
+            "name": "衣架",
+            "desc": "藏青色竖条纹圆领连衣裙",
+            "newPrice": "322",
+            "oldPrice": "1690.0"
+          },
+          {
+            "pic": "assets/img/jdh/lyq04.png",
+            "name": "INITIAL",
+            "desc": "藏青色叠层网纱设计立领",
+            "newPrice": "4792",
+            "oldPrice": "2190.0"
+          }
+        ]
+  },
+  "短裙":{
+    "photo":"assets/img/jdh/duanqun.png",
+    "lists": [
+      {
+        "pic": "assets/img/jdh/dq01.png",
+        "name": "DOLCE&GABBANA",
+        "desc": "深灰色花纹A字型半身裙",
+        "newPrice": "2790",
+        "oldPrice": "9300.0"
+      },
+      {
+        "pic": "assets/img/jdh/dq02.png",
+        "name": "AXELLEDESOIE",
+        "desc": "深蓝色半身鱼尾裙",
+        "newPrice": "299",
+        "oldPrice": "880.0"
+      },
+      {
+        "pic": "assets/img/jdh/dq03.png",
+        "name": "MA BY MA STUDIO",
+        "desc": "黑色双层网纱半身裙",
+        "newPrice": "299",
+        "oldPrice": "1990.0"
+      },
+      {
+        "pic": "assets/img/jdh/dq04.png",
+        "name": "AXELLEDESOIE",
+        "desc": "深蓝色蕾丝女士半身裙",
+        "newPrice": "299",
+        "oldPrice": "880.0"
+      }
+    ]
+  },
+  "毛衣":{
+    "photo":"assets/img/jdh/maoyi.png",
+    "lists": [
+      {
+        "pic": "assets/img/jdh/my01.png",
+        "name": "WDLS",
+        "desc": "抹茶绿V领女士长款羊绒套衫",
+        "newPrice": "481",
+        "oldPrice": "3680.0"
+      },
+      {
+        "pic": "assets/img/jdh/my02.png",
+        "name": "WDLS",
+        "desc": "藏青色樽领长款女士羊绒衫",
+        "newPrice": "481",
+        "oldPrice": "3980.0"
+      },
+      {
+        "pic": "assets/img/jdh/my03.png",
+        "name": "FREE PEOPLE",
+        "desc": "枚红色露肩宽松女士上衣",
+        "newPrice": "499",
+        "oldPrice": "703.0"
+      },
+      {
+        "pic": "assets/img/jdh/my04.png",
+        "name": "Brooks Brothers",
+        "desc": "花灰色钩花半高领针织衫",
+        "newPrice": "915",
+        "oldPrice": "3050.0"
+      }
+    ]
+  }
+}

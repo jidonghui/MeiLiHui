@@ -1,0 +1,164 @@
+@charset "UTF-8";
+/*公共样式*/
+html, body, div, p, dl, dt, dd, ul, ol, li, form, table, tr, td, th, h1, h2, h3, h4, h5, h6, hr, figure, fieldset, legend, img, input, header, footer, nav, aside, article, section {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  font-size: 26.66667vw; }
+
+body {
+  font-family: "微软雅黑",Arial; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style: none; }
+
+img {
+  border: none; }
+
+html, body {
+  color: #181818;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.cart-header {
+  line-height: 0.6rem;
+  font-size: 18px;
+  color: #181818;
+  text-align: center;
+  position: relative; }
+  .cart-header .editor {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 14px; }
+    .cart-header .editor > span {
+      padding: 0 0.15rem; }
+    .cart-header .editor a {
+      display: inline-block;
+      vertical-align: -0.03rem; }
+      .cart-header .editor a img {
+        height: 0.21rem;
+        padding: 0 0.15rem; }
+
+.content {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.freeshipping {
+  line-height: 0.48rem;
+  font-size: 14px;
+  padding: 0 0.16rem;
+  color: #da2120;
+  font-weight: 100; }
+  .freeshipping div {
+    float: right;
+    color: #181818; }
+    .freeshipping div span {
+      font-size: 10px; }
+
+.cart-focus .cart-box {
+  background: #f7f7f7;
+  padding: 0.1rem 0; }
+  .cart-focus .cart-box .shop-tit {
+    line-height: 0.46rem;
+    font-size: 14px;
+    background: #fff; }
+    .cart-focus .cart-box .shop-tit img {
+      padding: 0 0.15rem;
+      width: 0.2rem;
+      vertical-align: middle; }
+  .cart-focus .cart-box dd {
+    border-top: 1px solid #ededed;
+    padding: 0.1rem 0;
+    background: #fff;
+    display: flex;
+    align-items: center; }
+    .cart-focus .cart-box dd .check-state {
+      padding: 0 0.15rem;
+      width: 0.2rem; }
+    .cart-focus .cart-box dd .shop-pic {
+      width: 0.91rem;
+      margin-right: 0.1rem; }
+    .cart-focus .cart-box dd .shop-detail {
+      flex: 1;
+      font-size: 14px;
+      line-height: 0.2rem;
+      padding-right: 0.16rem; }
+      .cart-focus .cart-box dd .shop-detail .shop-desp {
+        width: 2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      .cart-focus .cart-box dd .shop-detail .shop-color {
+        font-size: 12px;
+        color: #949494;
+        overflow: hidden; }
+        .cart-focus .cart-box dd .shop-detail .shop-color span {
+          float: left;
+          margin: 0.1rem 0 0.38rem;
+          line-height: 0.2rem; }
+        .cart-focus .cart-box dd .shop-detail .shop-color a {
+          float: left;
+          width: 2.02rem;
+          height: 0.2rem;
+          border: 1px solid #f4f4f4;
+          margin: 0.1rem 0 0.38rem;
+          text-indent: 0.1rem;
+          color: #949494; }
+          .cart-focus .cart-box dd .shop-detail .shop-color a img {
+            width: 0.04rem;
+            float: right;
+            margin: 0.08rem 0.05rem 0; }
+      .cart-focus .cart-box dd .shop-detail .shop-price {
+        color: #d31c1c; }
+        .cart-focus .cart-box dd .shop-detail .shop-price .shop-num {
+          display: block;
+          font-size: 12px;
+          color: #949494;
+          float: right; }
+        .cart-focus .cart-box dd .shop-detail .shop-price .changeNum {
+          float: right;
+          color: #1e1e1e;
+          font-size: 12px;
+          border: 1px solid #f3f3f3; }
+          .cart-focus .cart-box dd .shop-detail .shop-price .changeNum span {
+            display: inline-block;
+            width: 0.22rem;
+            height: 0.22rem;
+            line-height: 0.22rem;
+            text-align: center; }
+          .cart-focus .cart-box dd .shop-detail .shop-price .changeNum .sym {
+            font-size: 18px; }
+
+.check-all {
+  line-height: 0.52rem;
+  width: 100%;
+  font-size: 14px;
+  background: #fff;
+  border-top: 1px solid #cccccc; }
+  .check-all img {
+    padding: 0 0.15rem;
+    width: 0.2rem;
+    vertical-align: middle; }
+  .check-all .delete {
+    float: right;
+    width: 0.94rem;
+    text-align: center;
+    background: #cccccc;
+    color: white; }
+  .check-all .totalMoney {
+    float: right;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 0.1rem; }
+    .check-all .totalMoney span {
+      color: #e22625; }
+
+/*# sourceMappingURL=ShopCart.css.map */
